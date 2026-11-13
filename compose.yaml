@@ -1,0 +1,6 @@
+services:
+  image-api:
+    build: .
+    image: assignment4-advanced-image-generation:latest
+    ports:
+      - "8000:8000"
